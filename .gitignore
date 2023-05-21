@@ -2,7 +2,6 @@
 *.log
 
 #dirs
-build/
 template/
 
 #packs
