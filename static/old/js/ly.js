@@ -13,19 +13,5 @@ xhr.onreadystatechange = function() {
     }
 };
 
-$.ajax({
-    url: 'https://gitee.com/JingHai-Lab/mc521-website-v2/raw/master/countnumber.txt',
-    type: 'GET',
-    success: function(response) {
-        const { serverjars, clientmods } = response;
-        $('#count2').text(serverjars);
-        $('#count3').text(clientmods);
-        console.log(serverjars, clientmods);
-    },
-    error: function(xhr, status, error) {
-        console.log('XHR 加载失败：', error);
-    }
-});
-
 xhr.open('GET','https://mcapi.us/server/status?ip=mc521.cc&port=25565',true);
 xhr.send()
