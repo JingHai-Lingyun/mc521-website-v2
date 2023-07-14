@@ -15,9 +15,6 @@
     <link rel="stylesheet" href="static/old/css/lingyun.css">
     <link rel="stylesheet" href="static/old/css/style.css">
     <link rel="stylesheet" href="static/old/css/43de2d28871449afacfb22c49aa31e7b.css">
-	
-	<!-- Favicon  -->
-    <link rel="icon" href="https://mc.fybk.cc/mc/mc26/static/image/a4VB1f.png">
 
     <!-- JavaScript -->
     <script async="" src='static/js/invisible.js'></script>
@@ -27,12 +24,8 @@
             alert("你必须安装 Java 才能启动游戏")
         }
 
-        function banlist(){
-            alert("该功能正在制作中\n注意！违反服务器规定就会被封禁！")
-        }
-
         function gameann(){
-            window.open("news.html")
+            window.location("news.html")
         }
     </script>
 
@@ -86,7 +79,7 @@
                     <a class="nav-link page-scroll" onclick="gameann()">游戏公告</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link page-scroll" onclick="banlist()">封禁列表</a>
+                    <a class="nav-link page-scroll" href="ban.html">封禁列表</a>
                 </li>
                     </div>
                 </li>
