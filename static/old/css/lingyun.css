@@ -1,0 +1,157 @@
+/* The Style Under Here is write by YUANXINGlingyun*/
+.h1 {
+  font-size:35px;
+  color: white;
+}
+
+.h2{
+	font-size: 2rem;
+	color: black;
+}
+
+.h1B{
+	font-size: 30px;
+	color: black;
+}
+
+.h1G,.G{
+	font-size: 30px;
+	color: lightslategray;
+}
+
+span.dizhi{
+	color: goldenrod;
+}
+
+li{
+	list-style-type:none;
+	padding-bottom: 5px;
+	padding-left: 10px;
+}
+
+button {
+	/* -webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+ 	padding: 16px 32px;
+ 	text-align: center;
+ 	background-color: radial-gradient(circle, rgba(247, 150, 192, 1) 0%, rgba(118, 174, 241, 1) 100%);
+ 	color: white; */
+	
+	width: 130px;
+    height: 42px;
+    background: radial-gradient(circle, rgba(247, 150, 192, 1) 0%, rgba(118, 174, 241, 1) 100%);
+    border: none;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+	text-align: center;
+    font-size: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button.long {
+	/* -webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+ 	padding: 16px 32px;
+ 	text-align: center;
+ 	background-color: radial-gradient(circle, rgba(247, 150, 192, 1) 0%, rgba(118, 174, 241, 1) 100%);
+ 	color: white; */
+	
+	width: 150px;
+    height: 42px;
+    background: radial-gradient(circle, rgba(247, 150, 192, 1) 0%, rgba(118, 174, 241, 1) 100%);
+    border: none;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+	text-align: center;
+    font-size: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: transparent;
+    color: #76aef1; 
+}
+
+button:active{
+	color: red;
+}
+
+/*
+button{
+    width: 130px;
+    height: 42px;
+    background: radial-gradient(circle, rgba(247, 150, 192, 1) 0%, rgba(118, 174, 241, 1) 100%);
+    border: none;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    line-height: 120px;
+}
+button span{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: block;
+}
+button:hover{
+    background: transparent;
+    color: #76aef1;
+}
+button::before,
+button::after{
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    box-shadow:
+    -1px -1px 20px 0px rgba(255, 255, 255, 1),
+    -4px -4px 5px 0px rgba(255, 255, 255, 1),
+    10px 10px 20px 0px rgba(0, 0, 0, .4),
+    6px 6px 5px 0px rgba(0, 0, 0, .3);
+    transition: all 0.8s ease;
+    padding: 0;
+}
+button::before{
+    top: 0;
+    right: 0;
+}
+button::after{
+    bottom: 0;
+    left: 0;
+}
+button:hover::before,
+button:hover::after{
+    height: 100%;
+}
+button span::before,
+button span::after{
+    position:absolute;
+    content: '';
+    height: 1px;
+    width: 0px;
+    box-shadow:
+    -1px -1px 20px 0px rgba(255, 255, 255, 1),
+    -4px -4px 5px 0px rgba(255, 255, 255, 1),
+    10px 10px 20px 0px rgba(0, 0, 0, .4),
+    6px 6px 5px 0px rgba(0, 0, 0, .3);
+    transition: all 0.8s ease;
+}
+button span::before{
+    top:0;
+    left: 0;
+}
+button span::after{
+    bottom: 0;
+    right: 0;
+}
+button span:hover::before,
+button span:hover::after{
+    width: 100%;
+}
+*/
