@@ -31,15 +31,7 @@
     <!-- end of preloader -->
     
     <!-- JavaScript -->
-    <script text="text/javascript">
-        function banlist(){
-            alert("该功能正在制作中\n注意！违反服务器规定就会被封禁！")
-        }
-
-        function gameann(){
-            window.location("news.html")
-        }
-    </script>
+    <script src="static/layui.render.js"></script>
 
     <!-- Navbar -->
     <nav class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top">
@@ -73,10 +65,10 @@
                     <a class="nav-link page-scroll" href="index.html#picture">风景欣赏</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link page-scroll" onclick="gameann()">游戏公告</a>
+                    <a class="nav-link page-scroll" href="news.html">游戏公告</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link page-scroll" onclick="banlist()">封禁列表</a>
+                    <a class="nav-link page-scroll" href="ban.html">封禁列表</a>
                 </li>
                 </li>
             </ul>
