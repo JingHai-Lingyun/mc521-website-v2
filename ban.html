@@ -101,7 +101,7 @@
     <!-- Main Part -->
     <div class="main" id="here">
         <h3>服务器封禁列表</h3>
-        <table class="layui-table" lay-even>
+        <table class="layui-table">
             <colgroup>
                 <col width="150">
                 <col width="250">
@@ -119,7 +119,7 @@
                 </tr> 
             </thead>
 			<div class="inban">
-				<tbody>
+				<tbody id="Xeirufied">
             	    <tr>
             	        <td>Xeirufied</td>
             	        <td>None</td>
@@ -128,9 +128,45 @@
             	        <td>违反服务器规则</td>
             	    </tr>
             	</tbody>
+				<tbody class="layui-bg-gray" id="Varcon">
+            	    <tr>
+            	        <td>Varcon</td>
+            	        <td>None</td>
+						<td><span class="layui-badge layui-bg-gray">-</span></td>
+						<td><span class="layui-badge layui-bg-red">封禁中</span></td>
+            	        <td>刷点券</td>
+            	    </tr>
+            	</tbody>
+				<tbody>
+            	    <tr>
+            	        <td>aress</td>
+            	        <td>None</td>
+						<td><span class="layui-badge layui-bg-gray">-</span></td>
+						<td><span class="layui-badge layui-bg-red">封禁中</span></td>
+            	        <td>造谣</td>
+            	    </tr>
+            	</tbody>
+                <tbody class="layui-bg-gray" id="Varcon">
+            	    <tr>
+            	        <td>Marser</td>
+            	        <td>None</td>
+						<td><span class="layui-badge layui-bg-gray">-</span></td>
+						<td><span class="layui-badge layui-bg-red">封禁中</span></td>
+            	        <td>线下交易</td>
+            	    </tr>
+            	</tbody>
+				<tbody class="layui-bg-gray" id="CX_lingyun">
+            	    <tr>
+            	        <td>CX_lingyun</td>
+            	        <td>None</td>
+						<td><span class="layui-badge layui-bg-gray">-</span></td>
+						<td><span class="layui-badge layui-bg-orange">封禁中</span></td>
+            	        <td><span class="layui-font-red">特别的</span>，账号权限保护（冻结，避免注册）</td>
+            	    </tr>
+            	</tbody>
 			</div>
-			<div class="ninban">
-            	<tbody>
+			<div class="notinban">
+            	<tbody id="SpreadloveR">
             	    <tr>
             	        <td>SpreadloveR</td>
             	        <td>2023/07/14 00:14:15</td>
