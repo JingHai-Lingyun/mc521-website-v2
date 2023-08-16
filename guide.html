@@ -16,8 +16,17 @@
     <link rel="stylesheet" href="static/old/css/style.css">
     <link rel="stylesheet" href="static/old/css/43de2d28871449afacfb22c49aa31e7b.css">
 
-    <script async="" src='static/js/invisible.js'></script>
-    <script src="static/layui.render.js"></script>
+    <link rel="stylesheet" href="//unpkg.com/layui@2.8.15/dist/css/layui.css">
+
+    <style>
+        hr{border-bottom: 1px solid #c5c5c586 !important;}
+        p{color: #000000;height: 25px !important;line-height: 25px !important;}
+        .hideblock{color: #2f363c !important;}
+        .hideblock:hover{color: #ffffff !important;cursor: default;}
+        .layui-badge{border-radius: 4px;}
+        a.tk{text-decoration: underline !important;}
+        a.nav-link{cursor: default !important;}
+    </style>
 </head>
 <body data-spy="scroll" data-target=".fixed-top">
     
@@ -69,7 +78,7 @@
                     <a class="nav-link page-scroll" href="ban.html">封禁列表</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link page-scroll" href="guide.html">新手指引</a>
+                    <a class="nav-link page-scroll">新手指引</a>
                 </li>
                 </li>
             </ul>
@@ -83,7 +92,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1>游戏公告</h1>
+                    <h1>新手指引</h1>
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
         </div> <!-- end of container -->
@@ -97,7 +106,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="breadcrumbs">
-                        <a href="index.html">首页</a><span>&nbsp;&nbsp;>&nbsp;&nbsp;</span><a href="#">游戏公告</a><span></span>
+                        <a href="index.html">首页</a><span>&nbsp;&nbsp;>&nbsp;&nbsp;</span><a href="#">新手指引</a><span></span>
                     </div> <!-- end of breadcrumbs -->
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
@@ -111,22 +120,84 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="text-container">
-                        <h3>服 务 器 公 告</h3>
-                        <p class="pclcolor-1">本服IP：mc521.cc</p>
-                        <p class="pclcolor-1">君庭阁条规 【新人必看】</p>
-                        <p class="pclcolor-1">本服属于高度自由服务器，在游戏内发生的一些小问题，如以下事件 都属于个人责任 服主不会处理</p>
-                        <p class="pclcolor-1">【双方因为一些琐事或别的原因引起吵架】</p>
-                        <p class="pclcolor-1">【未圈地导致家里被熊或被有权限的人熊家】</p>
-                        <p class="pclcolor-1">【非绑定武器不小心丢失，或者误丢出去被他人捡走】</p>
-                        <p class="pclcolor-1">【被其他玩家正常击杀，或允许的区域内击杀】</p>
-                        <p style="color:red;">⚠️ 本服不能违反的规则，重则永久封号 ⚠️</p>
-                        <p style="color:red;">【禁止在安全区内，也就是服主创建的领地内,出现杀人情况】</p>
-                        <p style="color:red;">【禁止在本服宣传他人服务器，或者辱骂氪金的都是傻逼之类的话】</p>
-                        <p class="pclcolor-1">ℹ️ 关于丢东西说明 ℹ️</p>
-                        <p class="pclcolor-1">（1）因服务器原因卡没物品的，请详细回忆卡掉过程，以及卡丢时间，然后向服主反馈</p>
-                        <p class="pclcolor-1">（2）禁止跟鲨臂一样说什么 【我东西没了 我东西卡掉了】 之类没脑子的话</p>
-                        <p class="pclcolor-1">（3）因个人原因丢失的物品【例如丢进岩浆等】一律不进行补偿 请手动绑定武器</p>
-                        <p class="pclcolor-1">服主一天很忙，很容易没注意某个消息 如果没回消息，请过会再发一遍消息给服主！</p>
+                        <h2 id="1">第一章：交友，是在服务器游玩的第一步</h2>
+                        <hr>
+                        <p>刚进服最重要的事情就是找个小伙伴</p>
+                        <p>怎么找呢？</p>
+                        <br>
+                        <p>1. 在公屏直接刷屏找人(这种刷屏是允许的)</p>
+                        <p>例如:“谁要一起玩 我tpa过去！”</p>
+                        <p class="layui-badge layui-bg-black"><a class="hideblock">[主动你们就有故事~]</a></p>
+                        <br><br>
+                        <p>2. 让服主帮你安排一个小伙伴,只要服主在线就可以喔</p>
+                        <p class="layui-badge layui-bg-black"><a class="hideblock">[高效率 免费安排]</a></p>
+                        <br><br><br><br>
+                        <h2 id="2">第二章：发展方向</h2>
+                        <hr>
+                        <p>新人该从哪一步开始发展？</p>
+                        <br>
+                        <p>1. 如果你已经很久没玩MC了</p>
+                        <p>那么前期的话可以先当做单机玩,了解高版本新知识与特性</p>
+                        <br>
+                        <p>2. 如果你认为你有基础知识</p>
+                        <p>那么你就把菜单的每一个功能都仔细看一遍</p>
+                        <p>主城的NPC功能也都看一遍</p>
+                        <p>完成后你就搞懂该怎么去玩本服了</p>
+                        <br><br><br>
+                        <h2 id="3">第三章：常用指令</h2>
+                        <hr>
+                        <p>圈地 - /res create 领地名</p>
+                        <p>私聊 - /msg 玩家名 内容</p>
+                        <p>玩家市场 - /ca help</p>
+                        <p>玩家地标 - /pw help</p>
+                        <p>拜师 - /twm help</p>
+                        <p>结婚 - /marry help</p>
+                        <br>
+                        <p>还有更多指令，尽在 <a class="tk" href="https://521tk.rth1.app">君庭阁工具箱</a> (左侧)</p>
+                        <br><br><br>
+                        <h2 id="4">第四章：附魔也是一种新玩法</h2>
+                        <hr>
+                        <p>本服有200多种附魔书</p>
+                        <br>
+                        <p>以下是获取附魔书的渠道</p>
+                        <p>1. 用原版附魔台附魔出来</p>
+                        <p>2. 附魔书抽奖宝箱抽出来</p>
+                        <p>3. 通过与玩家交易获得</p>
+                        <p>4. 通过粉丝礼包 / 游戏活动等其他渠道获得</p>
+                        <br><br><br>
+                        <h2 id="5">第五章：向上攀升 之 阶级系统</h2>
+                        <hr>
+                        <p>升级阶级，需要你花费时间和精力达到不同的标准</p>
+                        <p>当然，升级后的回报也是十分丰厚的</p>
+                        <br>
+                        <p>具体有什么回报？</p>
+                        <p>1. 解锁 / 扩容随身背包</p>
+                        <p>2. 扩大圈地范围，降低圈地费用</p>
+                        <p>除此之外，还有很多权限等你解锁哦~</p>
+                        <br>
+                        <p>升阶要求和奖励具体信息，尽在 <a class="tk" href="https://521tk.rth1.app">君庭阁工具箱</a> (右侧)</p>
+                        <br><br><br>
+                        <h2 id="6">第六章：个人天赋：属性提升好帮手</h2>
+                        <hr>
+                        <p>通过对应的行为，提升自己的天赋，成就更好的自己！</p>
+                        <br>
+                        <p>增幅生效在：</p>
+                        <p>生命值 - 最高到40血 (20<span style="color:#ff0000">❤</span>)</p>
+                        <p>攻击力 - 最高到150%伤害 (+50%)</p>
+                        <p>防御力 - 最高到125%防御 (+25%)</p>
+                        <br>
+                        <p>特别注意：技能面板中点击右上角，看到的才是各项属性加成</p>
+                        <br><br><br>
+                        <h2 id="end">最后的总结</h2>
+                        <hr>
+                        <p>以上就是大概的指引</p>
+                        <p>后面会随着玩法的推出慢慢更新</p>
+                        <br>
+                        <p>此指引由凌云编写，与服务器中书本指引同步，仅在部分位置优化细节</p>
+                        <p>若有内容未更新，请联系凌云</p>
+                        <br>
+                        <p>希望你在服务器玩的愉快</p>
+                        <p style="margin-left: 147px;">—— 客服凌云 8月17日的凌晨</p>
                     </div> <!-- end of text-container -->
                 </div>
             </div> <!-- end of row -->
@@ -140,14 +211,13 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="breadcrumbs">
-                        <a href="index.html">首页</a><span>&nbsp;&nbsp;>&nbsp;&nbsp;</span><a href="#">游戏公告</a><span></span>
+                        <a href="index.html">首页</a><span>&nbsp;&nbsp;>&nbsp;&nbsp;</span><a href="#">新手指引</a><span></span>
                     </div> <!-- end of breadcrumbs -->
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
         </div> <!-- end of container -->
     </div> <!-- end of ex-basic-1 -->
     <!-- end of breadcrumbs -->
-
 
     <!-- Footer -->
     <div class="footer">
@@ -190,8 +260,8 @@
     <script crossorigin="anonymous" src="static/js/clipboard.min.js"></script>
     <script src="static/js/js.js"></script>
     <script src="static/js/scripts.js"></script> <!-- Custom scripts -->
-
+    <script async="" src='static/js/invisible.js'></script>
     <script src="static/old/js/ly.js"></script>
-<script type="text/javascript">(function(){window['__CF$cv$params']={r:'722dfdb78bdf7cdd',m:'lz5Z7JcUBGDJ4VcdVGMCJti_ttvQsxxTLCN2fWKmVIM-1656498671-0-AYg1UZfa/6uVqY3tVCm3szxKwpR0k/D3WFBeL3YVOCxxJB8Rd0mcN4Z+0XaTGw72q7mEH2S+i8U5XVxgELFsgpxLOPwCGE2iQ58W17ZBLB6J6H8Kbs3z296BPdeNZtcHSAnz7KyMrS/5BnCtTguNbJc=',s:[0xb29238c46b,0x77362adda6],u:'/cdn-cgi/challenge-platform/h/b'}})();</script><script defer="" src="static/js/v652eace1692a40cfa3763df669d7439c1639079717194.js" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"722dfdb78bdf7cdd","version":"2022.6.0","r":1,"token":"776870bd5e914f9693a2a32d28cef7a8","si":100}' crossorigin="anonymous"></script>
+    <script type="text/javascript">(function(){window['__CF$cv$params']={r:'722dfdb78bdf7cdd',m:'lz5Z7JcUBGDJ4VcdVGMCJti_ttvQsxxTLCN2fWKmVIM-1656498671-0-AYg1UZfa/6uVqY3tVCm3szxKwpR0k/D3WFBeL3YVOCxxJB8Rd0mcN4Z+0XaTGw72q7mEH2S+i8U5XVxgELFsgpxLOPwCGE2iQ58W17ZBLB6J6H8Kbs3z296BPdeNZtcHSAnz7KyMrS/5BnCtTguNbJc=',s:[0xb29238c46b,0x77362adda6],u:'/cdn-cgi/challenge-platform/h/b'}})();</script><script defer="" src="static/js/v652eace1692a40cfa3763df669d7439c1639079717194.js" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"722dfdb78bdf7cdd","version":"2022.6.0","r":1,"token":"776870bd5e914f9693a2a32d28cef7a8","si":100}' crossorigin="anonymous"></script>
 </body>
 </html>
