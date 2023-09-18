@@ -193,7 +193,7 @@ strong {
 }
 
 .btn-solid-lg2:hover {
-	background-color: transparent;
+	background-color: none;
 	color: red;
 	text-decoration: none;
 }
